@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# digital-business-card
+A digital business card made with React. Static web page. Section 1 solo project of the Scrimba React course.
+ss# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
