@@ -2,8 +2,8 @@ import React from "react"
 
 export default function Interests() {
     return (
-        <header>
+        <div>
             <h1>This is the Interests section</h1>
-        </header>
+        </div>
     )
 }
