@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 export default function Info() {
     return (
@@ -9,8 +10,14 @@ export default function Info() {
             <h4>Fullstack Developer</h4>
             <p>aidanfournier.com</p>
             <div className="info--links">
-                <a className="ingo--mail" href="mailto:aidan.douglas.fournier@gmail.com"><FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>Email</a>
-                <a href="https://www.linkedin.com/in/aidanfournier/">LinkedIn</a>
+                <div className="info--mail">
+                    <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                    <a href="mailto:aidan.douglas.fournier@gmail.com">Email</a>
+                </div>
+                <div className="info--linkedin">
+                    <FontAwesomeIcon  icon={faLinkedin}></FontAwesomeIcon>
+                    <a href="https://www.linkedin.com/in/aidanfournier/">LinkedIn</a>
+                </div>
             </div>
         </header>
     )
