@@ -2,10 +2,12 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import Profile from "../images/profile-pic.png"
 
 export default function Info() {
     return (
         <header>
+            <img src={Profile} className="info--profile" alt="Profile"/>
             <h1>Aidan Fournier</h1>
             <h4>Fullstack Developer</h4>
             <p>aidanfournier.com</p>
