@@ -103,3 +103,16 @@ a {
   color: white;
   line-height: 16px;
 }
+
+.footer {
+  background-color: #161619;
+  color: #918e9b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-size: 25px;
+  height: 64px;
+  border-radius: 0 0 10px 10px;
+  margin-top: 35px;
+}
