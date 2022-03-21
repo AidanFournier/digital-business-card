@@ -16,6 +16,8 @@ body {
   border-radius: 10px;
 }
 
+/* Info */
+
 header {
   text-align: center;
   line-height: 10px;
@@ -81,4 +83,23 @@ a {
 .info--profile {
   width: 250px;
   border-radius: 10px 10px 0 0;
+}
+
+/* About */
+
+.about-interests {
+  margin: 35px 30px;
+}
+
+.about-interests > h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.about-interests > p {
+  font-size: 10.24px;
+  font-weight: 200;
+  color: white;
+  line-height: 16px;
 }
